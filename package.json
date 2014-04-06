@@ -1,12 +1,13 @@
 {
   "name": "broccoli-globalize-amd",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Broccoli plugin that exports your module to a global",
   "main": "index.js",
   "author": "Martin Muñoz",
   "license": "MIT",
-  "scripts": {
-    "postinstall": "bower install"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmun/broccoli-globalize-amd.git"
   },
   "keywords": [
     "broccoli-plugin",
@@ -16,5 +17,8 @@
   ],
   "dependencies": {
     "broccoli-filter": "0.1.6"
+  },
+  "scripts": {
+    "postinstall": "bower install"
   }
 }
