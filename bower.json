@@ -1,0 +1,6 @@
+{
+  "name": "broccoli-globalize-amd",
+  "dependencies": {
+    "loader.js": "~1.0.0"
+  }
+}
